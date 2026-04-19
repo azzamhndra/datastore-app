@@ -4,14 +4,14 @@
       "id": "1",
       "name": "Budi Santoso",
       "email": "user@test.com",
-      "password": "123456",
+      "password": "12345678",
       "phone": "081234567890"
     },
     {
       "id": "2",
       "name": "Ani Rahayu",
       "email": "ani@test.com",
-      "password": "123456",
+      "password": "12345678",
       "phone": "082345678901"
     }
   ],
@@ -38,7 +38,11 @@
       "validity": 30,
       "price": 45000,
       "description": "Pilihan hemat untuk kebutuhan sehari-hari.",
-      "features": ["5GB data", "Berlaku 30 hari", "Bonus 1GB malam"]
+      "features": [
+        "5GB data",
+        "Berlaku 30 hari",
+        "Bonus 1GB malam"
+      ]
     },
     {
       "id": "3",
@@ -48,7 +52,11 @@
       "validity": 30,
       "price": 75000,
       "description": "Pas untuk streaming dan media sosial.",
-      "features": ["10GB data", "Berlaku 30 hari", "Akses YouTube HD"]
+      "features": [
+        "10GB data",
+        "Berlaku 30 hari",
+        "Akses YouTube HD"
+      ]
     },
     {
       "id": "4",
@@ -58,7 +66,11 @@
       "validity": 30,
       "price": 120000,
       "description": "Internet tanpa batas seharian penuh.",
-      "features": ["Unlimited data", "Berlaku 30 hari", "Speed up to 25 Mbps"]
+      "features": [
+        "Unlimited data",
+        "Berlaku 30 hari",
+        "Speed up to 25 Mbps"
+      ]
     },
     {
       "id": "6",
@@ -68,7 +80,11 @@
       "validity": 30,
       "price": 99000,
       "description": "Dioptimalkan untuk gaming online.",
-      "features": ["20GB data", "Low latency", "Bonus weekend unlimited"]
+      "features": [
+        "20GB data",
+        "Low latency",
+        "Bonus weekend unlimited"
+      ]
     }
   ],
   "transactions": [
@@ -101,6 +117,16 @@
       "status": "success",
       "createdAt": "2026-04-19T20:58:17.788Z",
       "id": "7KatHdpKqS8"
+    },
+    {
+      "packageId": "2",
+      "packageName": "Paket Standar 5GB",
+      "provider": "XL",
+      "userId": 1,
+      "price": 45000,
+      "status": "success",
+      "createdAt": "2026-04-19T23:03:07.862Z",
+      "id": "VbaUqP8eAHQ"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
