@@ -9,18 +9,18 @@
 ## Struktur Project
 
 - `src/pages` — halaman utama
-- `src/components` — komponen reusable
-- `src/services` — API abstraction layer
-- `src/context` — global state (AuthContext)
+- `src/components` - komponen reusable
+- `src/services` - API abstraction layer
+- `src/context` - global state (AuthContext)
 
 ## Design Decision
 
 - **useContext** untuk auth state — menghindari prop drilling
 - **Service pattern** untuk abstraksi API call
-- **Server-side filter & pagination** — lebih efisien untuk data besar
+- **Server-side filter & pagination** - lebih efisien untuk data besar
 - **Protected & Public Route** — keamanan navigasi
 
 ## Trade-off
 
-- Filter real-time tanpa debounce — bisa ditambah debounce untuk optimasi
-- Tidak ada token JWT — menggunakan localStorage sebagai dummy auth
+- Filter real-time tanpa debounce - bisa ditambah debounce untuk optimasi
+- Tidak ada token JWT - menggunakan localStorage sebagai dummy auth
