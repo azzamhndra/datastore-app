@@ -8,17 +8,17 @@
 
 ## Struktur Project
 
-- `src/pages` — halaman utama
+- `src/pages` - halaman utama
 - `src/components` - komponen reusable
 - `src/services` - API abstraction layer
 - `src/context` - global state (AuthContext)
 
 ## Design Decision
 
-- **useContext** untuk auth state — menghindari prop drilling
+- **useContext** untuk auth state - menghindari prop drilling
 - **Service pattern** untuk abstraksi API call
 - **Server-side filter & pagination** - lebih efisien untuk data besar
-- **Protected & Public Route** — keamanan navigasi
+- **Protected & Public Route** - keamanan navigasi
 
 ## Trade-off
 
